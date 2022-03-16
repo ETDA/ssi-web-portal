@@ -1,0 +1,187 @@
+.document-management-overview {
+  .group-header {
+    background-color: $purple-light;
+  }
+}
+
+.ownership-modal {
+
+  .input-group-text {
+    border-color: #606060;
+    border-right: none;
+  }
+
+  .form-control {
+    border-color: #606060;
+    border-left: none;
+    padding-left: 0;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #606060;;
+    }
+  }
+
+  //tbody {
+  //  max-height: 80vh;
+  //  overflow: auto;
+  //  display: block;
+  //}
+
+  .card, .table-responsive {
+    border-radius: $border-radius !important;
+  }
+
+  .user-item {
+    transition: all 0.2s ease;
+
+    &.active, &:hover {
+      background-color: $primary;
+
+      td {
+        span {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.document-management-form {
+  .group-header {
+    background-color: $purple-light;
+  }
+
+  .meta {
+    .card-header-title {
+      color: transparent !important;
+    }
+  }
+
+  .ownership, .detail, .overview, .success {
+    .card-header-title {
+      color: transparent !important;
+    }
+  }
+
+  .ownership {
+    .form-control {
+      border-color: #606060;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #606060;;
+      }
+    }
+  }
+
+  .group-header {
+    background-color: $purple-light;
+  }
+
+  .detail {
+    .form-control {
+      border-color: #606060;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #606060;;
+      }
+    }
+  }
+
+  .overview {
+  }
+
+  .success {
+  }
+}
+
+.form-detail-modal {
+  max-height: 80vh;
+  overflow: auto;
+
+  hr {
+    display: none;
+  }
+
+  .form-control {
+    border-color: #606060;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #606060;;
+    }
+  }
+}
+
+.form-overview-modal {
+  hr {
+    display: none;
+  }
+
+  .form-control {
+    border-color: #606060;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #606060;;
+    }
+  }
+}
+
+.document-overview-version {
+  max-height: 320px;
+  overflow-y: auto;
+
+  .checkbox-section {
+    flex: 0 0 20%;
+    max-width: 20%;
+
+    .checkbox-container {
+      height: 1.5rem;
+      width: 1.5rem;
+      padding: 3px;
+      border: 2px solid $primary;
+      border-radius: 50%;
+
+      .checkbox-value {
+        background-color: transparent;
+        border-radius: 50%;
+
+        &.active {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  .version-section {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .date-section {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+}
+
+.document-version-toolbar {
+  .card-body {
+    .label {
+      flex: 0 0 28%;
+      max-width: 28%;
+    }
+
+    .value {
+      overflow: auto;
+      flex: 1 1 auto;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+FROM node:14.17.5-alpine
+
+WORKDIR /app
+ARG APP_HOST
+ARG APP_PORT
+ARG APP_BASE_API
+
+ENV APP_HOST=${APP_HOST}
+ENV APP_PORT=${APP_PORT}
+ENV APP_BASE_API=${APP_BASE_API}
+ENV APP_PREFIX=${APP_PREFIX}
+
+COPY ./package*.json .
+COPY ./yarn.lock .
+RUN yarn
+
+COPY . .
+
+RUN yarn build
+CMD yarn start

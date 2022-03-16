@@ -1,0 +1,9 @@
+.content {
+  margin-top: $navbar-height;
+
+  @include mobile {
+    margin-top: 69px;
+  }
+}
+
+@import "page-header";

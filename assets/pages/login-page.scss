@@ -1,0 +1,79 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .authen-background {
+    object-fit: cover;
+    object-position: right;
+    transform: scale(1.005);
+  }
+
+  .login-container {
+    padding: 128px 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .logo {
+      padding: 0 128px;
+      flex: 0 0 49%;
+      max-width: 49%;
+
+      @include large {
+        padding: 0 80px;
+      }
+
+      @include desktop {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .split {
+      flex: 0 0 2%;
+      max-width: 2%;
+
+      @include desktop {
+        display: none !important;
+      }
+    }
+
+    .login-form {
+      padding: 0 128px;
+      flex: 0 0 49%;
+      max-width: 49%;
+
+      @include large {
+        padding: 0 80px;
+      }
+
+      @include desktop {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      @include mobile {
+        padding: 0 32px;
+      }
+
+      .login-card {
+        @include desktop {
+          max-width: 350px;
+        }
+
+        @include mobile {
+          max-width: unset;
+        }
+      }
+
+      .remember-me {
+        .form-control {
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+}

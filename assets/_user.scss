@@ -1,0 +1,434 @@
+/*------------------------------------
+  File for your custom SCSS style
+------------------------------------*/
+
+@import "components/index";
+@import "layouts/index";
+@import "pages/index";
+
+html, body, #__nuxt, #__layout {
+  height: 100%;
+}
+
+.modal {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgba(31, 31, 31, 0.2);
+  backdrop-filter: blur(20px);
+}
+
+.mx-input {
+  cursor: pointer;
+}
+
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-Thin.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("assets/fonts/NotoSansThai-Bold.ttf");
+  font-weight: 700;
+}
+
+h1 {
+  font-size: $h1;
+  margin: 0;
+}
+
+h2 {
+  font-size: $h2;
+  margin: 0;
+}
+
+h3 {
+  font-size: $h3;
+  margin: 0;
+}
+
+h4 {
+  font-size: $h4;
+  margin: 0;
+}
+
+h5 {
+  font-size: $h5;
+  margin: 0;
+}
+
+h6 {
+  font-size: $h6;
+  margin: 0;
+}
+
+p {
+  font-size: $p;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-7xl {
+  font-size: 3rem;
+}
+
+.text-6xl {
+  font-size: 2.75rem;
+}
+
+.text-5xl {
+  font-size: $h1;
+}
+
+.text-4xl {
+  font-size: $h2;
+}
+
+.text-3xl {
+  font-size: $h3;
+}
+
+.text-2xl {
+  font-size: $h4;
+}
+
+.text-xl {
+  font-size: $h5;
+}
+
+.text-lg {
+  font-size: $h6;
+}
+
+.text-base {
+  font-size: $p;
+}
+
+.text-sm {
+  font-size: $s;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-base {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-thin {
+  font-weight: 200;
+}
+
+.bg-temporary {
+  background-color: $temporary !important;
+}
+
+.text-temporary {
+  color: $temporary !important;
+}
+
+.text-disabled {
+  color: $disabled-color !important;
+}
+
+.text-default {
+  color: $default-text-color !important;
+}
+
+.text-underline {
+  text-decoration: underline !important;
+}
+
+.circle-success {
+  display: block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #82b44b;
+}
+
+.circle-danger {
+  display: block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #e04f1a;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #143652 !important;
+
+  &.active {
+    border-left-color: #143652;
+  }
+
+  &.nuxt-link-exact-active {
+    background-color: white;
+  }
+}
+
+.active {
+  border-left-color: #04588D;
+}
+
+.page-header-title {
+  color: white;
+}
+
+.breadcrumb {
+  .breadcrumb-link {
+    color: #4F9DD6;
+  }
+
+  .breadcrumb-item {
+    color: white;
+  }
+}
+
+.modal-header {
+  display: none;
+
+  .close {
+    position: absolute;
+    right: 5px;
+    top: -35px;
+  }
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.navbar {
+  z-index: 999;
+  height: $navbar-height;
+
+  @include mobile {
+    height: unset;
+  }
+}
+
+.navbar-nav-wrap-content-left, .navbar-nav-wrap-content-right {
+  padding-right: 0 !important;
+  flex: 0 0 50%;
+  max-width: 50%;
+
+  a:last-of-type {
+    padding-right: 0 !important;
+  }
+
+  .notification {
+    font-size: $h6;
+
+    .notification-alert {
+      font-size: .65rem;
+      top: -3px;
+      right: 7px;
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.navbar-nav-wrap-content-left {
+  @include mobile {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+
+.navbar-nav-wrap-content-right {
+  @include mobile {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+.footer {
+  position: unset;
+  height: $footer-height * 2;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.schema-toolbar {
+  .multiselect {
+    min-height: 36px !important;
+
+    .multiselect__tags {
+      height: 36px !important;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 0 !important;
+  }
+}
+
+.vdatetime {
+  .form-control {
+    border-color: #606060 !important;
+
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: #606060 !important;
+    }
+  }
+}
+
+.bg-primary-light {
+  background-color: $blue-light;
+}
+
+.bg-dark {
+  background-color: $black;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-gray-700 {
+  background-color: $gray-700;
+}
+
+.bg-gray-600 {
+  background-color: $gray-600;
+}
+
+.bg-gray-500 {
+  background-color: $gray-500;
+}
+
+.bg-gray-400 {
+  background-color: $gray-400;
+}
+
+.bg-gray-300 {
+  background-color: $gray-300;
+}
+
+.bg-gray-200 {
+  background-color: $gray-200;
+}
+
+.text-dark {
+  color: $black;
+}
+
+.text-gray-700 {
+  color: $gray-700;
+}
+
+.text-gray-600 {
+  color: $gray-600;
+}
+
+.text-gray-500 {
+  color: $gray-500;
+}
+
+.text-gray-400 {
+  color: $gray-400;
+}
+
+.text-gray-300 {
+  color: $gray-300;
+}
+
+.text-gray-200 {
+  color: $gray-200;
+}
+
+.text-link {
+  color: $link-color;
+}
+
+.max-w-min {
+  max-width: min-content;
+}
+
+.max-w-max {
+  max-width: max-content;
+}
+
+.pointer-all {
+  pointer-events: all;
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.spinner-border-md {
+  width: $spinner-width-sm;
+  height: $spinner-height-sm;
+  border-width: 0.5rem;
+}
+
+.line-height-0 {
+  line-height: 0;
+}
+
+//.input-height {
+//  height: $input-height;
+//}

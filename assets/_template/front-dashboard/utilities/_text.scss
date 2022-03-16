@@ -1,0 +1,22 @@
+/*------------------------------------
+  Typography
+------------------------------------*/
+
+.text-cap {
+  display: block;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  letter-spacing: $letter-spacing;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.font-size-md {
+  font-size: $font-size-base;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg;
+}

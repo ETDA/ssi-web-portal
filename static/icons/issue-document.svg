@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.594" height="120.519" viewBox="0 0 91.594 120.519">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd834"/>
+      <stop offset="1" stop-color="#fbb617"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.25" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#154597"/>
+      <stop offset="1" stop-color="#02070f"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_ionic-ios-document" data-name="Icon ionic-ios-document" transform="translate(-7.313 -3.938)">
+    <path id="Path_164" data-name="Path 164" d="M26.326,33.743H53.744a1.492,1.492,0,0,0,1.506-1.506h0a8.917,8.917,0,0,0-3.224-6.9L29.038,6.174a9.677,9.677,0,0,0-6.207-2.23h0a2.225,2.225,0,0,0-2.23,2.23V28.018A5.722,5.722,0,0,0,26.326,33.743Z" transform="translate(43.656 0.023)" fill="url(#linear-gradient)"/>
+    <path id="Path_165" data-name="Path 165" d="M56.424,28.041V3.938H16.954a9.67,9.67,0,0,0-9.641,9.641V114.815a9.67,9.67,0,0,0,9.641,9.641H89.265a9.67,9.67,0,0,0,9.641-9.641V41.6H69.982A13.579,13.579,0,0,1,56.424,28.041Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+    <path id="ic_add_24px" d="M41.649,25.942H25.942V41.649H20.707V25.942H5V20.707H20.707V5h5.236V20.707H41.649Z" transform="translate(29.312 54.938)" fill="#fff"/>
+  </g>
+</svg>

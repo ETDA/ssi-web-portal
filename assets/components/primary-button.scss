@@ -1,0 +1,19 @@
+.primary-button {
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.secondary-button {
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+
+  &.disabled {
+    border-color: #D0D0D0;
+  }
+}

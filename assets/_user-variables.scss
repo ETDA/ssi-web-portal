@@ -1,0 +1,71 @@
+// user-variables.scss
+// Use this to overwrite Bootstrap and Front variables
+//
+
+
+// Example of a variable override to change Front's primary color and font size
+// Remove the "//" to comment it in and see it in action!
+$primary: #0A214A;
+$secondary: #40C2D3;
+$temporary: #FBB617;
+$success: #02C39E;
+$danger: #FF4242;
+$warning: #FBB617;
+$default-text-color: #707070;
+$disabled-color: #D0D0D0;
+$white-grey: #F2F2F2;
+$black: #000000;
+$white: #FFFFFF;
+$blue-light: #EBF5F7;
+$purple-light: #E1E7F4;
+
+$h1: 2.5rem;
+$h2: 2.25rem;
+$h3: 2rem;
+$h4: 1.75rem;
+$h5: 1.5rem;
+$h6: 1.25rem;
+$p: 1rem;
+$s: .875rem;
+
+$base-multiple: 6.4;
+$grid-gutter-width: 15px !default;
+
+.text-black {
+  color: $black;
+}
+@mixin mobile {
+  @include media-breakpoint-down(xs) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include media-breakpoint-down(sm) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @include media-breakpoint-down(md) {
+    @content;
+  }
+}
+
+@mixin large {
+  @include media-breakpoint-down(lg) {
+    @content;
+  }
+}
+
+@mixin extra {
+  @include media-breakpoint-down(xl) {
+    @content;
+  }
+}
+
+@mixin super-extra {
+  @include media-breakpoint-up(xl) {
+    @content;
+  }
+}

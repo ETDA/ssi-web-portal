@@ -1,0 +1,176 @@
+.register {
+  background-image: url('/slash.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 400px;
+
+  .register-form {
+    .register-card {
+      max-width: 350px !important;
+
+      @include mobile {
+        max-width: 90% !important;
+      }
+    }
+
+    .register-organization {
+      @include super-extra {
+        padding: 0 225px;
+      }
+
+      @include extra {
+        padding: 0 128px;
+      }
+
+      @include large {
+        padding: 0 64px;
+      }
+
+      @include desktop {
+        padding: 0 32px;
+      }
+
+      @include tablet {
+        padding: unset;
+      }
+
+      .logo {
+        flex: 0 0 55%;
+        max-width: 55%;
+
+        @include desktop {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        img {
+          @include super-extra {
+            transform: scale(1.3);
+          }
+
+          @include extra {
+            transform: scale(1.2);
+          }
+
+          @include large {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      .register-card {
+        flex: 0 0 45%;
+        max-width: 45%;
+
+        @include desktop {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        @include tablet {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+
+    .register-personal {
+      .register-card {
+        max-width: 400px !important;
+
+        @include mobile {
+          max-width: 90% !important;
+        }
+      }
+
+      .tio-chevron-left {
+        font-size: 2.25rem;
+      }
+
+      @include super-extra {
+        padding: 0 225px;
+      }
+
+      @include extra {
+        padding: 0 128px;
+      }
+
+      @include large {
+        padding: 0 64px;
+      }
+
+      @include desktop {
+        padding: 0 32px;
+      }
+
+      @include tablet {
+        padding: unset;
+      }
+
+      .logo {
+        flex: 0 0 55%;
+        max-width: 55%;
+
+        @include desktop {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        img {
+          @include super-extra {
+            transform: scale(1.2);
+          }
+
+          @include extra {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      .register-card {
+        flex: 0 0 45%;
+        max-width: 45%;
+
+        @include desktop {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        @include tablet {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+
+    .register-verify-email {
+      @include super-extra {
+        padding: 0 225px;
+      }
+
+      @include extra {
+        padding: 0 128px;
+      }
+
+      @include large {
+        padding: 0 64px;
+      }
+
+      @include desktop {
+        padding: 0 32px;
+      }
+
+      @include tablet {
+        padding: unset;
+      }
+
+      .register-card {
+        max-width: 350px !important;
+
+        @include mobile {
+          max-width: 90% !important;
+        }
+      }
+    }
+  }
+}

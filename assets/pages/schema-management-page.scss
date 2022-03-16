@@ -1,0 +1,158 @@
+.schema-edit-version-modal {
+  .card-header {
+    background-color: $white !important;
+  }
+
+  .card-header-title {
+    color: $primary !important;
+  }
+}
+
+.schema-management-form {
+  .group-header {
+    background-color: $purple-light;
+  }
+
+  .detail {
+    .card-body {
+      min-height: 500px;
+    }
+  }
+
+  .card {
+    height: 100%;
+  }
+
+  .tree-icon {
+    width: 50px;
+  }
+
+  .divider {
+    width: 1px;
+  }
+
+  .controller {
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+
+  .inactive {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .add-property {
+    .horizontal {
+      background-color: $gray-400;
+    }
+
+    .vertical {
+      background-color: $gray-400;
+    }
+
+    &.active {
+      color: $secondary;
+
+      .horizontal {
+        background-color: $secondary;
+      }
+
+      .vertical {
+        background-color: $secondary;
+      }
+    }
+  }
+
+  .property {
+    height: 50px;
+  }
+
+  .bullet {
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+  }
+
+  .line {
+    margin-left: 1.8rem;
+    width: 37px;
+    height: 50px;
+  }
+
+  .horizontal {
+    transition: all 0.2s ease;
+    width: 2px;
+    left: 0;
+
+    &.active {
+      background-color: $secondary;
+    }
+  }
+
+  .vertical {
+    transition: all 0.2s ease;
+    height: 2px;
+    width: 37px;
+    left: 0;
+    top: 25px;
+
+    &.active {
+      background-color: $secondary;
+    }
+  }
+
+  .document-header {
+    padding-top: 2rem;
+
+    hr {
+      display: none;
+    }
+
+    p {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .detail {
+    .step {
+      display: none !important;
+    }
+  }
+}
+
+.schema-overview-version {
+  max-height: 320px;
+  overflow-y: auto;
+
+  .checkbox-section {
+    flex: 0 0 20%;
+    max-width: 20%;
+
+    .checkbox-container {
+      height: 1.5rem;
+      width: 1.5rem;
+      padding: 3px;
+      border: 2px solid $primary;
+      border-radius: 50%;
+
+      .checkbox-value {
+        background-color: transparent;
+        border-radius: 50%;
+
+        &.active {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  .version-section {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .date-section {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+}

@@ -1,0 +1,6 @@
+.git/
+.nuxt/
+docs/
+dist/
+node_modules/
+*.log

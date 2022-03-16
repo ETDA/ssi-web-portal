@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.594" height="120.519" viewBox="0 0 91.594 120.519">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd834"/>
+      <stop offset="1" stop-color="#fbb617"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.25" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#154597"/>
+      <stop offset="1" stop-color="#02070f"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_ionic-ios-document" data-name="Icon ionic-ios-document" transform="translate(-7.313 -3.938)">
+    <path id="Path_164" data-name="Path 164" d="M26.326,33.743H53.744a1.492,1.492,0,0,0,1.506-1.506h0a8.917,8.917,0,0,0-3.224-6.9L29.038,6.174a9.677,9.677,0,0,0-6.207-2.23h0a2.225,2.225,0,0,0-2.23,2.23V28.018A5.722,5.722,0,0,0,26.326,33.743Z" transform="translate(43.656 0.023)" fill="url(#linear-gradient)"/>
+    <path id="Path_165" data-name="Path 165" d="M56.424,28.041V3.938H16.954a9.67,9.67,0,0,0-9.641,9.641V114.815a9.67,9.67,0,0,0,9.641,9.641H89.265a9.67,9.67,0,0,0,9.641-9.641V41.6H69.982A13.579,13.579,0,0,1,56.424,28.041Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_691" data-name="Group 691" transform="translate(-294.881 -397.478)">
+      <rect id="Rectangle_466" data-name="Rectangle 466" width="17.964" height="18" rx="3" transform="translate(311.746 448.618)" fill="none" stroke="#40c2d3" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1613" data-name="Path 1613" d="M238.055,448.884l-3.344-4.567s-.689-2.327,1.672-1.445l3.6,4.587,15.728-16.884s3.29-.9,1.808,1.571l-16.548,17.783S239.837,451.3,238.055,448.884Z" transform="translate(81.62 13.67)" fill="#fff"/>
+      <rect id="Rectangle_467" data-name="Rectangle 467" width="17.964" height="18" rx="3" transform="translate(311.746 481.618)" fill="none" stroke="#40c2d3" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1614" data-name="Path 1614" d="M238.055,448.884l-3.344-4.567s-.689-2.327,1.672-1.445l3.6,4.587,15.728-16.884s3.29-.9,1.808,1.571l-16.548,17.783S239.837,451.3,238.055,448.884Z" transform="translate(81.62 46.67)" fill="#fff"/>
+      <line id="Line_60" data-name="Line 60" x2="36" transform="translate(343.694 482.2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_61" data-name="Line 61" x2="35" transform="translate(343.694 453.199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_62" data-name="Line 62" x2="31" transform="translate(343.694 459.985)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_63" data-name="Line 63" x2="31" transform="translate(343.694 487.985)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_64" data-name="Line 64" x2="31" transform="translate(343.694 494.771)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

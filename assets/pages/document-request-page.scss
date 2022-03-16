@@ -1,0 +1,49 @@
+.request-document {
+  .request-document-checkbox {
+    .form-group {
+      margin: 0.5rem 1rem !important;
+    }
+
+    .form-control {
+      padding: 0 !important;
+      background: transparent;
+    }
+  }
+
+  .request-bottom-bar {
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+
+    &.active {
+      transform: translate(-50%, 0);
+    }
+  }
+
+  .request-additional {
+    .tio-delete {
+      font-size: 1.5rem;
+    }
+
+    textarea {
+      &.form-control {
+        padding: 0.5rem !important;
+        background: $white !important;
+      }
+    }
+
+    .form-control {
+      padding: 0 !important;
+      background: transparent;
+    }
+  }
+
+  .request-overview {
+    .label{
+      flex: 0 0 14%;
+      max-width: 3140%;
+    }
+  }
+}

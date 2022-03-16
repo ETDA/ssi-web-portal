@@ -1,0 +1,43 @@
+// Bootstrap setup
+@import 'bootstrap/functions';
+
+// Front setup
+@import '_template/themes/default';
+
+@import '_template/front-dashboard/variables';
+
+@import 'assets/user-variables';
+
+// Bootstrap core
+@import 'bootstrap/bootstrap';
+
+/*----------------------------------------------------------------------
+  * Front Dashboard Template version v1.0
+  * Copyright 2020 Htmlstream
+  * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
+------------------------------------------------------------------------*/
+
+@import '_template/front-dashboard/front-dashboard';
+
+@import "components/vue_dialog/main";
+@import "components/vue_date_time";
+@import "components/vue_multi_select";
+
+// Custom core
+@import 'assets/user';
+
+
+@media (min-width: 992px) {
+  .container-small {
+    width: 1086px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-small {
+    width: 1086px;
+  }
+}
+
+.container-small{
+  max-width: 100%;
+}

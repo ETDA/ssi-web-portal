@@ -1,0 +1,25 @@
+.my-table {
+  flex: 1 1;
+  thead {
+    tr {
+      color: $primary;
+      background-color: $secondary;
+
+      th {
+        border: none;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(2n) {
+        background-color: $blue-light;
+      }
+    }
+  }
+
+  td > span {
+    color: $primary
+  }
+}

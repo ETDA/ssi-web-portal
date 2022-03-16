@@ -1,0 +1,44 @@
+{
+
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "@types/jest",
+      "cypress",
+      "unplugin-vue2-script-setup/types"
+    ]
+  },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2
+  },
+  "exclude": [
+    "node_modules",
+    "cypress",
+    "**/*.spec.ts"
+  ]
+}

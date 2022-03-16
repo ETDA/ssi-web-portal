@@ -1,0 +1,200 @@
+//
+// Mixins
+//
+@import "mixins";
+
+//
+// Reboot
+//
+@import "assets/_template/front-dashboard/reboot/style";
+@import "assets/_template/front-dashboard/reboot/accessibility";
+
+//
+// Components
+//
+@import "assets/_template/front-dashboard/alert/alert";
+@import "assets/_template/front-dashboard/alert/alert-styles";
+
+@import "assets/_template/front-dashboard/animation/animation";
+
+@import "assets/_template/front-dashboard/navbar/navbar";
+@import "assets/_template/front-dashboard/navbar/navbar-options";
+@import "assets/_template/front-dashboard/navbar/navbar-extensions";
+@import "assets/_template/front-dashboard/navbar/navbar-expand";
+@import "assets/_template/front-dashboard/navbar/navbar-nav-wrap";
+@import "assets/_template/front-dashboard/navbar/navbar-vertical";
+@import "assets/_template/front-dashboard/navbar/navbar-vertical-aside";
+@import "assets/_template/front-dashboard/navbar/navbar-skins";
+
+@import "assets/_template/front-dashboard/search/search-fullwidth";
+
+@import "assets/_template/front-dashboard/avatar/avatar-styles";
+@import "assets/_template/front-dashboard/avatar/avatar";
+@import "assets/_template/front-dashboard/avatar/avatar-group";
+@import "assets/_template/front-dashboard/avatar/avatar-group-sizes";
+@import "assets/_template/front-dashboard/avatar/avatar-ratio";
+@import "assets/_template/front-dashboard/avatar/avatar-sizes";
+@import "assets/_template/front-dashboard/avatar/avatar-status";
+@import "assets/_template/front-dashboard/avatar/avatar-uploader";
+
+@import "assets/_template/front-dashboard/badge/badge-soft";
+
+@import "assets/_template/front-dashboard/breadcrumb/breadcrumb";
+
+@import "assets/_template/front-dashboard/blockquote/blockquote";
+
+@import "assets/_template/front-dashboard/buttons/button-custom";
+@import "assets/_template/front-dashboard/buttons/button-sizes";
+@import "assets/_template/front-dashboard/buttons/button-ghost";
+@import "assets/_template/front-dashboard/buttons/button-soft";
+@import "assets/_template/front-dashboard/buttons/button-groups";
+@import "assets/_template/front-dashboard/buttons/button-outline";
+@import "assets/_template/front-dashboard/buttons/button-icon";
+@import "assets/_template/front-dashboard/buttons/button-icon-sizes";
+@import "assets/_template/front-dashboard/buttons/button-status";
+@import "assets/_template/front-dashboard/buttons/button-status-sizes";
+@import "assets/_template/front-dashboard/buttons/button-status-styles";
+@import "assets/_template/front-dashboard/buttons/buttons";
+
+@import "assets/_template/front-dashboard/content/content";
+@import "assets/_template/front-dashboard/content/kanban";
+@import "assets/_template/front-dashboard/content/sidebar-detached";
+@import "assets/_template/front-dashboard/content/splitted-content";
+
+@import "assets/_template/front-dashboard/page-header/page-header";
+
+@import "assets/_template/front-dashboard/card/card";
+@import "assets/_template/front-dashboard/card/card-sizes";
+@import "assets/_template/front-dashboard/card/card-options";
+@import "assets/_template/front-dashboard/card/card-extensions";
+
+@import "assets/_template/front-dashboard/close/close";
+
+@import "assets/_template/front-dashboard/column-divider/column-divider";
+
+@import "assets/_template/front-dashboard/divider/divider";
+
+@import "assets/_template/front-dashboard/links/links";
+
+@import "assets/_template/front-dashboard/list/list-inline";
+@import "assets/_template/front-dashboard/list/list-unstyled";
+@import "assets/_template/front-dashboard/list/list-comment";
+@import "assets/_template/front-dashboard/list/list-separator";
+@import "assets/_template/front-dashboard/list/list-group/list-group";
+@import "assets/_template/front-dashboard/list/list-group/list-group-sizes";
+@import "assets/_template/front-dashboard/list/list-checked/list-checked";
+@import "assets/_template/front-dashboard/list/list-checked/list-checked-sizes";
+@import "assets/_template/front-dashboard/list/list-checked/list-checked-styles";
+
+@import "assets/_template/front-dashboard/sidebar/sidebar";
+
+@import "assets/_template/front-dashboard/tables/table";
+@import "assets/_template/front-dashboard/tables/table-sizes";
+@import "assets/_template/front-dashboard/tables/table-options";
+@import "assets/_template/front-dashboard/tables/table-extensions";
+
+@import "assets/_template/front-dashboard/dropdown/dropdown";
+@import "assets/_template/front-dashboard/dropdown/dropdown-sizes";
+@import "assets/_template/front-dashboard/dropdown/dropdown-options";
+@import "assets/_template/front-dashboard/dropdown/dropdown-extensions";
+
+@import "assets/_template/front-dashboard/footer/footer";
+
+@import "assets/_template/front-dashboard/forms/form";
+@import "assets/_template/front-dashboard/forms/custom-forms";
+@import "assets/_template/front-dashboard/forms/input-group/input-group";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-add-field";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-borderless";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-break";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-light";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-merge";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-flush";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-pill";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-quantity-counter";
+@import "assets/_template/front-dashboard/forms/input-group/input-group-sizes";
+@import "assets/_template/front-dashboard/forms/states/states";
+@import "assets/_template/front-dashboard/forms/checkbox/checkbox-bookmark";
+@import "assets/_template/front-dashboard/forms/checkbox/checkbox-card";
+@import "assets/_template/front-dashboard/forms/checkbox/checkbox-list";
+@import "assets/_template/front-dashboard/forms/checkbox/checkbox-switch";
+@import "assets/_template/front-dashboard/forms/toggle-switch/toggle-switch";
+@import "assets/_template/front-dashboard/forms/toggle-switch/toggle-switch-sizes";
+@import "assets/_template/front-dashboard/forms/file-attachment/custom-file-boxed";
+@import "assets/_template/front-dashboard/forms/file-attachment/custom-file-button";
+
+@import "assets/_template/front-dashboard/go-to/go-to";
+
+@import "assets/_template/front-dashboard/icon/icon";
+@import "assets/_template/front-dashboard/icon/icon-sizes";
+@import "assets/_template/front-dashboard/icon/icon-styles";
+
+@import "assets/_template/front-dashboard/navs/navs";
+@import "assets/_template/front-dashboard/navs/nav-options";
+
+@import "assets/_template/front-dashboard/legend-indicator/legend-indicator";
+
+@import "assets/_template/front-dashboard/popover/popover";
+
+@import "assets/_template/front-dashboard/pagination/pagination";
+@import "assets/_template/front-dashboard/pagination/pagination-sizes";
+
+@import "assets/_template/front-dashboard/progress/progress-vertical";
+
+@import "assets/_template/front-dashboard/profile/profile-cover";
+
+@import "assets/_template/front-dashboard/modal/modal";
+@import "assets/_template/front-dashboard/modal/modal-sizes";
+@import "assets/_template/front-dashboard/modal/modal-options";
+
+@import "assets/_template/front-dashboard/step/step";
+@import "assets/_template/front-dashboard/step/step-avatar";
+@import "assets/_template/front-dashboard/step/step-avatar-sizes";
+@import "assets/_template/front-dashboard/step/step-divider";
+@import "assets/_template/front-dashboard/step/step-icon";
+@import "assets/_template/front-dashboard/step/step-icon-sizes";
+@import "assets/_template/front-dashboard/step/step-breakpoints";
+@import "assets/_template/front-dashboard/step/step-centered";
+@import "assets/_template/front-dashboard/step/step-states";
+@import "assets/_template/front-dashboard/step/step-colors";
+@import "assets/_template/front-dashboard/step/step-inline";
+@import "assets/_template/front-dashboard/step/step-timeline";
+
+@import "assets/_template/front-dashboard/ie/ie";
+
+//
+// Utilities
+//
+@import "assets/_template/front-dashboard/utilities/bg-image-hero";
+@import "assets/_template/front-dashboard/utilities/borders";
+@import "assets/_template/front-dashboard/utilities/gutters";
+@import "assets/_template/front-dashboard/utilities/opacity";
+@import "assets/_template/front-dashboard/utilities/position-spaces";
+@import "assets/_template/front-dashboard/utilities/sizing";
+@import "assets/_template/front-dashboard/utilities/shadows";
+@import "assets/_template/front-dashboard/utilities/text";
+@import "assets/_template/front-dashboard/utilities/text-colors";
+@import "assets/_template/front-dashboard/utilities/z-index";
+
+//
+// Vendor
+//
+@import "assets/_template/front-dashboard/vendor/chartjs";
+@import "assets/_template/front-dashboard/vendor/chartjs-doughnut";
+@import "assets/_template/front-dashboard/vendor/chartjs-matrix";
+@import "assets/_template/front-dashboard/vendor/circles";
+@import "assets/_template/front-dashboard/vendor/datatables";
+@import "assets/_template/front-dashboard/vendor/daterangepicker";
+@import "assets/_template/front-dashboard/vendor/dropzone";
+@import "assets/_template/front-dashboard/vendor/flatpickr";
+@import "assets/_template/front-dashboard/vendor/hs-form-search";
+@import "assets/_template/front-dashboard/vendor/hs-loading-state";
+@import "assets/_template/front-dashboard/vendor/hs-unfold";
+@import "assets/_template/front-dashboard/vendor/hs-nav-scroller";
+@import "assets/_template/front-dashboard/vendor/hs-toggle-fullscreen";
+@import "assets/_template/front-dashboard/vendor/ion-range-slider";
+@import "assets/_template/front-dashboard/vendor/jvectormap";
+@import "assets/_template/front-dashboard/vendor/leaflet";
+@import "assets/_template/front-dashboard/vendor/quill";
+@import "assets/_template/front-dashboard/vendor/select2";
+@import "assets/_template/front-dashboard/vendor/sortablejs";
+@import "assets/_template/front-dashboard/vendor/tagify";

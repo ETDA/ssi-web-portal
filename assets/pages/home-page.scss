@@ -1,0 +1,123 @@
+.home-page {
+  background-color: $white-grey;
+
+  h1 {
+    font-size: $h1;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .banner-bg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/banner_background.png');
+    padding: 38px 0;
+
+    .banner-content {
+
+      .etda, .e-portal {
+        line-height: unset;
+        display: inline;
+        font-size: 5rem;
+        font-weight: $font-weight-lighter;
+      }
+
+      .e-portal {
+        color: $temporary;
+      }
+
+      .note {
+        font-size: $p;
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .icon {
+    padding-top: 50%;
+
+    @include mobile {
+      padding-top: 25%;
+    }
+
+    img {
+      top: 0;
+      left: 0;
+      object-fit: scale-down;
+    }
+  }
+
+  .title {
+    h3 {
+      font-size: $h3;
+      color: $primary;
+      font-weight: $font-weight-bolder !important;
+    }
+  }
+
+  .description {
+    font-size: $p;
+    color: $default-text-color;
+  }
+
+  .management {
+    background-color: $white-grey;
+    padding: 38px 0;
+    text-align: center;
+
+    .features {
+      padding: 0 124px;
+
+      @include desktop {
+        padding: 0 48px;
+      }
+
+      @include mobile {
+        padding: 16px;
+      }
+    }
+
+    .link-container {
+
+      @include mobile {
+        flex: 0 0 95%;
+        max-width: 95%;
+      }
+
+      .link-item {
+        border-radius: 1rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0 0 8px 0;
+
+        .icon {
+          padding-top: 50%;
+
+          @include mobile {
+            padding-top: 25%;
+          }
+
+          img {
+            top: 0;
+            left: 0;
+            object-fit: scale-down;
+          }
+        }
+
+        .title {
+          h3 {
+            font-size: $h3;
+            color: $primary;
+            font-weight: $font-weight-bolder !important;
+          }
+        }
+
+        .description {
+          p {
+            font-size: $p;
+            color: $default-text-color;
+          }
+        }
+      }
+    }
+  }
+}
