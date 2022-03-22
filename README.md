@@ -12,7 +12,7 @@
 
 This repository contains the source code of the Self-Sovereign Identity for Web Portal Frontend.
 
-The SSI Web Portal Frontend are responsible accessing for organizations. The Web Portal  can be used for managing users, creating digital signature for their organization, the  retreiving 
+The SSI Web Portal Frontend are responsible accessing for organizations. The Web Portal can be used for managing users, creating digital signature for their organization, the createing and retreiving the document with mobile application. 
 
 ## Development
 
